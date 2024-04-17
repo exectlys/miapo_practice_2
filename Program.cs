@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 public class Programm
 {
@@ -7,21 +7,40 @@ public class Programm
     
     public double Root()
     {
-        return Math.Pow(a, b);
+        return Math.Sqrt(a);
     }
 
     public double Pow()
     {
-        return Math.Sqrt(a);
+        return Math.Pow(a, b);
     }
 
     public double Sin()
     {
-        return Math.Cos(a);
+        return Math.Sin(a);
     }
 
     public double Cos()
     {
-        return Math.Sin(a);
+        return Math.Cos(a);
     }
+
+        public double Plus()
+        {
+            return a + b;
+        }
+        public double Minus()
+        {
+            return a - b;
+        }
+        public double Division()
+        {
+            return a / b;
+        }
+        public double Mult()
+        {
+            return a * b;
+        }    
+   
 }
+
