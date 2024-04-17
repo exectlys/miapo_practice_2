@@ -1,26 +1,46 @@
-﻿namespace ConsoleApp1;
+using System;
 
-public class CalcLibrary
+public class Programm
 {
-    public class Calc
+    public double a;
+    public double b;
+    
+    public double Root()
     {
-        public int Plus(int a, int b)
+        return Math.Sqrt(a);
+    }
+
+    public double Pow()
+    {
+        return Math.Pow(a, b);
+    }
+
+    public double Sin()
+    {
+        return Math.Sin(a);
+    }
+
+    public double Cos()
+    {
+        return Math.Cos(a);
+    }
+
+        public double Plus()
         {
             return a + b;
         }
-        public int Minus(int a, int b)
+        public double Minus()
         {
             return a - b;
         }
-        public int Division(int a, int b)
+        public double Division()
         {
             return a / b;
         }
-        public int Mult(int a, int b)
+        public double Mult()
         {
             return a * b;
         }    
-    }
    
 }
 
